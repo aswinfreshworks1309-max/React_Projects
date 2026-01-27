@@ -2,6 +2,8 @@ import React from 'react'
 import Calculator from './components/Calculator'
 import Word from './components/Word'
 import Product from './components/Product'
+import HackathonForm from './components/HackathonForm'
+import StopClock from './components/StopClock'
 
 const App = () => {
   return (
@@ -13,6 +15,8 @@ const App = () => {
      <Word/>
      <Calculator/>
      <Product/>
+     <HackathonForm/>
+     <StopClock/>
  
    
     </div>
